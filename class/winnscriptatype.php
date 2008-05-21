@@ -161,6 +161,7 @@ class WinnScriptatype {
 	/*
 	 * Fields
 	 * $f->text(array('name' => 'user', 'id' => 'userfield'));
+	 * $f->hidden(array('name' => 'somthing', 'value' => $COOKIE['user']));
 	 */
 
 	 function field($type,$elmopts) {
